@@ -181,6 +181,7 @@ a {
 
 .frends {
     text-align: center;
+    background: rgb(246, 246, 246);
 }
 
 .frends__title {
@@ -189,6 +190,7 @@ a {
     font-weight: 400;
     line-height: 130%;
     padding-top: 80px;
+    margin-bottom:60px;
 }
 
 .arrow {
@@ -199,4 +201,64 @@ a {
 
 .arrow:hover {
     background-color: rgb(241, 205, 179);
+}
+
+.frends__slider{
+    font-family: Georgia;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.slider__card{
+    max-width: 270px;
+    background-color:rgb(250, 250, 250);
+}
+
+.card__katrine{
+   margin-right: 90px;
+   margin-left: 53px;
+}
+
+.card__jennifer{
+   margin-right: 90px;
+}
+
+.card__woody{
+    margin-right: 53px;
+}
+
+.card__img-wrap{
+    margin-bottom: 30px;
+}
+
+.card__title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-bottom: 30px;
+}
+
+.card__btn{
+    padding-bottom: 30px;
+}
+
+.card__link{
+    color: rgb(41, 41, 41);
+    font-size: 17px;
+    padding: 15px 45px;
+    border: 2px solid rgb(241, 205, 179);
+    border-radius: 100px;
+}
+
+.card__link:hover{
+    background-color: rgb(241, 205, 179);
+}
+
+.frends__link{
+    background: rgb(241, 205, 179);
+    border-radius: 100px;
+    padding: 15px 45px;
+    font-size: 17px;
+    color: rgb(41, 41, 41);
+   
 }
