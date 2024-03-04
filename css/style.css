@@ -182,6 +182,8 @@ a {
 .frends {
     text-align: center;
     background: rgb(246, 246, 246);
+    padding-bottom: 100px;
+    
 }
 
 .frends__title {
@@ -207,6 +209,7 @@ a {
     font-family: Georgia;
     display: flex;
     margin-bottom: 60px;
+    align-items: center;
 }
 
 .slider__card{
@@ -260,5 +263,35 @@ a {
     padding: 15px 45px;
     font-size: 17px;
     color: rgb(41, 41, 41);
-   
+}
+
+.help{
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(84, 84, 84);
+}
+
+.help__title{
+    margin-bottom: 60px;
+    font-size: 35px;
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.list__img-wrap{
+    margin-bottom: 30px;
+}
+
+.list__title{
+    font-size: 20px;
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 120px;
 }
