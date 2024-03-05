@@ -186,13 +186,18 @@ a {
     margin-bottom:60px;
 }
 
-.arrow {
+.btn-arrow-wrap{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     border-radius: 100px;
-    padding: 23px 23px;
     border: 2px solid rgb(241, 205, 179);
 }
 
-.arrow:hover {
+.btn-arrow-wrap:hover {
     background-color: rgb(241, 205, 179);
 }
 
