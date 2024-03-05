@@ -144,14 +144,14 @@ a {
 }
 
 .hero__img-wrap {
-    width: 50%;
 }
 
 .description-house__container {
     padding: 100px 40px;
     display: flex;
     margin: 0 auto;
-    justify-content: space-between
+    justify-content: center;
+    column-gap: 120px;
 }
 
 .description-house__img-wrap {
@@ -164,7 +164,6 @@ a {
     font-family: Georgia;
     font-size: 35px;
     font-weight: 400;
-    letter-spacing: 6%;
 }
 
 .description-house__text {
@@ -173,8 +172,6 @@ a {
     font-size: 15px;
     font-weight: 400;
     line-height: 160%;
-    letter-spacing: 0px;
-  
 }
 
 .frends {
