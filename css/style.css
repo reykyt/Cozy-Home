@@ -341,3 +341,41 @@ a {
     color: rgb(178, 178, 178);
     font-size: 12px;
 }
+
+footer{
+    background-image: url(../img/start-screen-gradient-background.png);
+    background-size: cover;
+    font-family: Georgia;
+    text-align: left;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.footer__title{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.adress__title{
+    margin-bottom: 34px;
+}
+
+.footer__link{
+    color: rgb(241, 205, 179);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.information__email{
+    margin-bottom: 46px;
+}
+
+.information__adress{
+    margin-bottom: 32px;
+}
