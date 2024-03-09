@@ -39,6 +39,8 @@ a {
     min-height: 100%;
 }
 
+/* начало индекса */
+
 .hero {
     background-image: url(../img/start-screen-gradient-background.png);
 }
@@ -379,3 +381,38 @@ footer{
 .information__adress{
     margin-bottom: 32px;
 }
+
+/* конец  индекса */
+/* начало сайта со всеми питомцами */
+
+.logo__titles{
+    margin-right: 573px;
+    font-family: Georgia;
+    font-size: 32px;
+    color: rgb(84, 84, 84);
+    margin-bottom: 10px;
+}
+
+.logo__subtitles{
+    color: rgb(41, 41, 41);
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.header__links{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+
+.item__link{
+    color: rgb(84, 84, 84);
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.links__item:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(241, 205, 179);
+}
+
