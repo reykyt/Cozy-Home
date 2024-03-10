@@ -177,18 +177,18 @@ a {
     text-align: center;
     background: rgb(246, 246, 246);
     padding-bottom: 100px;
-    padding-top:80px;
-    
+    padding-top: 80px;
+
 }
 
 .frends__title {
     color: rgb(84, 84, 84);
     font-size: 35px;
     font-weight: 400;
-    margin-bottom:60px;
+    margin-bottom: 60px;
 }
 
-.btn-arrow-wrap{
+.btn-arrow-wrap {
     width: 52px;
     height: 52px;
     border-radius: 50%;
@@ -203,51 +203,53 @@ a {
     background-color: rgb(241, 205, 179);
 }
 
-.frends__slider{
+.frends__slider {
     font-family: Georgia;
     display: flex;
     margin-bottom: 60px;
     align-items: center;
 }
 
-.slider__card{
+.slider__card {
     max-width: 270px;
-    background-color:rgb(250, 250, 250);
+    background-color: rgb(250, 250, 250);
+    transition: all 1s;
+    width: 270px;
 }
 
-.slider__card:hover{
-    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.3);
+.slider__card:hover {
+    box-shadow: 1px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
-.card__katrine{
-   margin-right: 90px;
-   margin-left: 53px;
+.card__katrine {
+    margin-right: 90px;
+    margin-left: 53px;
 }
 
-.card__jennifer{
-   margin-right: 90px;
+.card__jennifer {
+    margin-right: 90px;
 }
 
-.card__woody{
+.card__woody {
     margin-right: 53px;
 }
 
-.card__img-wrap{
+.card__img-wrap {
     margin-bottom: 30px;
 }
 
-.card__title{
+.card__title {
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
     padding-bottom: 30px;
 }
 
-.card__btn{
+.card__btn {
     padding-bottom: 30px;
 }
 
-.card__link{
+.card__link {
     color: rgb(41, 41, 41);
     font-size: 17px;
     padding: 15px 45px;
@@ -255,11 +257,11 @@ a {
     border-radius: 100px;
 }
 
-.card__link:hover{
+.card__link:hover {
     background-color: rgb(241, 205, 179);
 }
 
-.frends__link{
+.frends__link {
     background: rgb(241, 205, 179);
     border-radius: 100px;
     padding: 15px 45px;
@@ -267,125 +269,135 @@ a {
     color: rgb(41, 41, 41);
 }
 
-.help{
+.help {
     text-align: center;
     margin-top: 80px;
     color: rgb(84, 84, 84);
 }
 
-.help__title{
+.help__title {
     margin-bottom: 60px;
     font-size: 35px;
 }
 
-.section-one{
+.help__list {
+    flex-wrap: wrap;
+}
+
+.section-one {
     display: flex;
     justify-content: space-between;
     margin-bottom: 55px;
 }
 
-.list__img-wrap{
+.list__img-wrap {
     margin-bottom: 30px;
 }
 
-.list__title{
+.list__title {
     font-size: 20px;
 }
 
-.section-two{
+.section-two {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 100px;
 }
 
-.donation{
+.donation {
     background: rgb(246, 246, 246);
     padding-top: 80px;
     padding-bottom: 100px;
 }
 
-.donation__container{
+.donation__container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     color: rgb(84, 84, 84);
 }
 
-.donation__desc{
-    margin-left: 30px;
+.donatian__img-wrap {
+    flex: 1 0 54%;
+    text-align: right;
 }
 
-.donation__title{
+.donation__desc {
+    margin-left: 30px;
+    width: 380px;
+}
+
+.donation__title {
     font-size: 35px;
     margin-bottom: 20px;
 }
 
-.donation__subtitle{
+.donation__subtitle {
     font-size: 15px;
 }
 
-.donation__card{
+.donation__card {
     background: rgb(241, 205, 179);
     padding: 10px 15px;
     border-radius: 9px;
-    max-width:349px;
+    max-width: 349px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.donation__link{
+.donation__link {
     margin-left: 15px;
     font-size: 20px;
     top: 10px;
     color: rgb(84, 84, 84);
 }
 
-.donation__text{
+.donation__text {
     color: rgb(178, 178, 178);
     font-size: 12px;
 }
 
-footer{
+footer {
     background-image: url(../img/start-screen-gradient-background.png);
     background-size: cover;
     font-family: Georgia;
     text-align: left;
 }
 
-.footer__container{
+.footer__container {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
 }
 
-.footer__title{
+.footer__title {
     color: rgb(255, 255, 255);
     font-size: 35px;
     margin-bottom: 40px;
     font-weight: 400;
 }
 
-.adress__title{
+.adress__title {
     margin-bottom: 34px;
 }
 
-.footer__link{
+.footer__link {
     color: rgb(241, 205, 179);
     font-size: 20px;
     margin-left: 20px;
 }
 
-.information__email{
+.information__email {
     margin-bottom: 46px;
 }
 
-.information__adress{
+.information__adress {
     margin-bottom: 32px;
 }
 
 /* конец  индекса */
 /* начало сайта со всеми питомцами */
 
-.logo__titles{
+.logo__titles {
     margin-right: 573px;
     font-family: Georgia;
     font-size: 32px;
@@ -393,19 +405,19 @@ footer{
     margin-bottom: 10px;
 }
 
-.logo__subtitles{
+.logo__subtitles {
     color: rgb(41, 41, 41);
     font-family: Arial;
     font-size: 13px;
 }
 
-.header__links{
+.header__links {
     display: flex;
     justify-content: space-between;
     column-gap: 35px;
 }
 
-.item__link{
+.item__link {
     color: rgb(84, 84, 84);
     font-family: Arial;
     font-size: 15px;
@@ -416,3 +428,33 @@ footer{
     text-decoration-color: rgb(241, 205, 179);
 }
 
+
+.our-pets {
+    text-align: center;
+}
+
+.our-pets__title {
+    color: rgb(84, 84, 84);
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.slider__list-1 {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    margin-bottom: 30px;
+}
+
+.slider__list-2 {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    margin-bottom: 15px;
+}
+
+.pets__slider {
+    margin-bottom: 45px;
+}
