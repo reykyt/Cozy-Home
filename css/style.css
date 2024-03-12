@@ -431,6 +431,7 @@ footer {
 
 .our-pets {
     text-align: center;
+    padding-bottom: 0px;
 }
 
 .our-pets__title {
@@ -452,9 +453,40 @@ footer {
     display: flex;
     justify-content: space-between;
     column-gap: 40px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .pets__slider {
-    margin-bottom: 45px;
+    margin-bottom: 100px;
 }
+
+.pets-slider__navigation{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 45px;
+}
+
+.btn-1-wrap {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    border: 2px solid rgb(241, 205, 179);
+}
+
+.btn-1-wrap:hover {
+    background-color: rgb(241, 205, 179);
+}
+
+.no-active-arrow{
+    border: 2px solid rgb(205, 205, 205);
+}
+
+.no-active-arrow:hover{
+    background-color: #fff;
+}
+
