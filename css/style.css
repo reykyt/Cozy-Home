@@ -281,13 +281,17 @@ a {
 }
 
 .help__list {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    
+    margin-bottom: 100px;
+    max-width: 1026px;
+    column-gap: 120px;
 }
 
-.section-one {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 55px;
+.list__item {
+  margin-bottom: 55px;
 }
 
 .list__img-wrap {
@@ -298,11 +302,7 @@ a {
     font-size: 20px;
 }
 
-.section-two {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 100px;
-}
+
 
 .donation {
     background: rgb(246, 246, 246);
@@ -394,6 +394,64 @@ footer {
     margin-bottom: 32px;
 }
 
+@media (max-width: 1000px) { 
+    .card__woody{
+        visibility: hidden;
+        display: none;
+    }
+
+}
+
+@media (max-width:900px){
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .hero__container{
+        margin: 0 auto;
+        display: block;
+    }
+    .hero__desc{
+        margin: 0 auto;
+        margin-bottom: 100px;
+        text-align: left;
+        font-weight: 400;
+        font-family: Georgia;
+    }
+    .hero__title{
+        color: rgb(255, 255, 255);
+        font-size: 44px;
+    }
+    .hero__subtitle{
+        color: rgb(205, 205, 205);
+        font-family: Arial;
+        font-size: 15px;
+         line-height: 160%;
+    }
+
+    .description-house__container{
+        display: grid;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    .description-house__img{
+       order: 1;
+    }
+    .donation__container{
+        display: grid;
+    }
+    .donation__img-wrap{
+        order: 1;
+    }
+
+}
+@media (max-width: 768px){
+    .card__jennifer{
+    visibility: hidden;
+    display: none;
+    }   
+}
 /* конец  индекса */
 /* начало сайта со всеми питомцами */
 
