@@ -403,16 +403,25 @@ footer {
 }
 
 @media (max-width:900px){
+
+    .nav__list{
+        align-items: end;
+    }
     .container{
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    .header{
+        padding-bottom: 0px;
+    }
+
     .hero__container{
         margin: 0 auto;
         display: block;
     }
     .hero__desc{
-        margin: 0 auto;
+       width: 100%;
         margin-bottom: 100px;
         text-align: left;
         font-weight: 400;
@@ -421,6 +430,8 @@ footer {
     .hero__title{
         color: rgb(255, 255, 255);
         font-size: 44px;
+        margin-top: 60px;
+        padding-top: 0px;
     }
     .hero__subtitle{
         color: rgb(205, 205, 205);
@@ -445,6 +456,7 @@ footer {
         order: 1;
     }
 
+
 }
 @media (max-width: 768px){
     .card__jennifer{
@@ -452,11 +464,21 @@ footer {
     display: none;
     }   
 }
+
+@media (max-width: 768px){ 
+    .footer__container {
+        display: block;
+        align-content: center;
+    }
+    .footer__contacts{
+        margin-bottom: 40px;
+    }
+    
+ }
 /* конец  индекса */
 /* начало сайта со всеми питомцами */
 
 .logo__titles {
-    margin-right: 573px;
     font-family: Georgia;
     font-size: 32px;
     color: rgb(84, 84, 84);
@@ -500,18 +522,16 @@ footer {
     margin-bottom: 60px;
 }
 
-.slider__list-1 {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 40px;
-    margin-bottom: 30px;
-}
-
-.slider__list-2 {
+.slider__list {
     display: flex;
     justify-content: space-between;
     column-gap: 40px;
     padding-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.slider__card {
+    margin-bottom: 30px;
 }
 
 .pets__slider {
