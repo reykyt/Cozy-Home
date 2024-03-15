@@ -284,9 +284,7 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
     margin-bottom: 100px;
-    max-width: 1026px;
     column-gap: 120px;
 }
 
