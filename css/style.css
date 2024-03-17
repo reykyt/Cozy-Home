@@ -499,6 +499,9 @@ footer {
     .btn-arrow-wrap{
         order: 2;
     }
+    .pets__btn{
+        order: 0;
+    }
 
    
  }
