@@ -285,7 +285,7 @@ a {
 }
 
 .list__item {
-  margin-bottom: 55px;
+    margin-bottom: 55px;
 }
 
 .list__img-wrap {
@@ -357,6 +357,7 @@ footer {
     text-align: left;
 }
 
+
 .footer__container {
     display: flex;
     justify-content: space-between;
@@ -388,123 +389,192 @@ footer {
     margin-bottom: 32px;
 }
 
-@media (max-width: 1023px) { 
-    .card__woody{
+.foter__desc {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 160px;
+}
+
+@media (max-width: 1023px) {
+    .card__woody {
         visibility: hidden;
         display: none;
     }
 
 }
 
-@media (max-width:900px){
+@media (max-width:900px) {
 
-    .nav__list{
+    .nav__list {
         align-items: end;
     }
-    .container{
+
+    .container {
         padding-left: 30px;
         padding-right: 30px;
     }
 
-    .header{
+    .header {
         padding-bottom: 0px;
     }
 
-    .hero__container{
+    .hero__container {
         margin: 0 auto;
         display: block;
     }
-    .hero__desc{
-       width: 100%;
+
+    .hero__desc {
+        width: 100%;
         margin-bottom: 100px;
         text-align: left;
         font-weight: 400;
         font-family: Georgia;
     }
-    .hero__title{
+
+    .hero__title {
         color: rgb(255, 255, 255);
         font-size: 44px;
         margin-top: 60px;
         padding-top: 0px;
     }
-    .hero__subtitle{
+
+    .hero__subtitle {
         color: rgb(205, 205, 205);
         font-family: Arial;
         font-size: 15px;
-         line-height: 160%;
+        line-height: 160%;
     }
 
-    .description-house__container{
+    .description-house__container {
         display: grid;
         max-width: 900px;
         margin: 0 auto;
     }
-    
-    .description-house__img{
-       order: 1;
-    }
-    .donation__container{
-        display: grid;
-    }
-    .donation__img-wrap{
+
+    .description-house__img {
         order: 1;
     }
-    .frends__slider{
+
+    .donation__container {
+        display: grid;
+    }
+
+    .donation__img-wrap {
+        order: 1;
+    }
+
+    .frends__slider {
         text-align: center;
         align-items: center;
     }
 
 
 }
-@media (max-width: 817px){
-    .card__jennifer{
-    visibility: hidden;
-    display: none;
-    }   
 
-    
+@media (max-width: 817px) {
+    .card__jennifer {
+        visibility: hidden;
+        display: none;
+    }
+
+
 }
 
-@media (max-width: 768px){ 
+@media (max-width:682px) {
     .footer__container {
         display: block;
         align-content: center;
+        display: block;
     }
-    .footer__contacts{
+
+    .footer__contacts {
         margin-bottom: 40px;
     }
-    
- }
 
- @media (max-width: 518px){ 
-    .hero__desc{
+    .footer {
+        display: block;
+    }
+
+
+}
+
+@media (min-width:1040px) {
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 160px;
+    }
+}
+
+@media (max-width: 890px) {
+    .foter__desc {
+        display: flex;
+    }
+
+    .footer__container {
+        display: block;
+    }
+}
+
+@media (max-width: 518px) {
+    .hero__desc {
         align-items: center;
         text-align: center;
     }
-    .hero__title{
+
+    .hero__title {
         text-align: center;
     }
-    .frends{
+
+    .frends {
         align-items: center;
         text-align: center;
     }
-    .frends__slider{
+
+    .frends__slider {
         display: grid;
-        
+
     }
-    .card__katrine{
-        min-width: 270px;
-        
+
+    .card__katrine {
+        max-width: 270px;
+        margin: 0px;
     }
-    .btn-arrow-wrap{
+
+    .frends__link {
+        padding: 15px 44px;
+    }
+
+    .btn-arrow-wrap {
         order: 2;
     }
-    .pets__btn{
+
+    .pets__btn {
         order: 0;
     }
 
-   
- }
+
+}
+
+@media (max-width: 306px) {
+    .hero__btn {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 256px) {
+    .card__link {
+        padding: 15px 44px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .pets-slider__navigation {
+        column-gap: 10px;
+    }
+}
+
 /* конец  индекса */
 /* начало сайта со всеми питомцами */
 
@@ -568,7 +638,7 @@ footer {
     margin-bottom: 100px;
 }
 
-.pets-slider__navigation{
+.pets-slider__navigation {
     display: flex;
     justify-content: center;
     column-gap: 20px;
@@ -590,11 +660,10 @@ footer {
     background-color: rgb(241, 205, 179);
 }
 
-.no-active-arrow{
+.no-active-arrow {
     border: 2px solid rgb(205, 205, 205);
 }
 
-.no-active-arrow:hover{
+.no-active-arrow:hover {
     background-color: #fff;
 }
-
