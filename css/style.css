@@ -122,9 +122,6 @@ a {
     font-size: 44px;
     font-weight: 400;
     line-height: 130%;
-    letter-spacing: 0%;
-    text-align: left;
-
 }
 
 .hero__subtitle {
@@ -134,7 +131,6 @@ a {
     font-weight: 400;
     line-height: 160%;
     letter-spacing: 0px;
-    text-align: left;
     padding-bottom: 42px;
 }
 
@@ -392,7 +388,7 @@ footer {
     margin-bottom: 32px;
 }
 
-@media (max-width: 1000px) { 
+@media (max-width: 1023px) { 
     .card__woody{
         visibility: hidden;
         display: none;
@@ -453,14 +449,20 @@ footer {
     .donation__img-wrap{
         order: 1;
     }
+    .frends__slider{
+        text-align: center;
+        align-items: center;
+    }
 
 
 }
-@media (max-width: 768px){
+@media (max-width: 817px){
     .card__jennifer{
     visibility: hidden;
     display: none;
     }   
+
+    
 }
 
 @media (max-width: 768px){ 
@@ -472,6 +474,33 @@ footer {
         margin-bottom: 40px;
     }
     
+ }
+
+ @media (max-width: 518px){ 
+    .hero__desc{
+        align-items: center;
+        text-align: center;
+    }
+    .hero__title{
+        text-align: center;
+    }
+    .frends{
+        align-items: center;
+        text-align: center;
+    }
+    .frends__slider{
+        display: grid;
+        
+    }
+    .card__katrine{
+        min-width: 270px;
+        
+    }
+    .btn-arrow-wrap{
+        order: 2;
+    }
+
+   
  }
 /* конец  индекса */
 /* начало сайта со всеми питомцами */
