@@ -193,6 +193,22 @@ a {
     align-items: center;
     border-radius: 100px;
     border: 2px solid rgb(241, 205, 179);
+    position: absolute;
+}
+
+.slider__nav{
+    position: absolute;
+    bottom: -862px;
+}
+
+.btn-right{ 
+    left: 547px;
+}
+
+/* bottom: -976px; */
+
+.btn-left{
+    left: -582px;
 }
 
 .btn-arrow-wrap:hover {
@@ -202,8 +218,13 @@ a {
 .frends__slider {
     font-family: Georgia;
     display: flex;
-    margin-bottom: 60px;
+    flex-flow: column;
     align-items: center;
+    margin-bottom: 60px;
+}
+
+.slider__pets{
+    display: flex;
 }
 
 .slider__card {
@@ -211,6 +232,8 @@ a {
     background-color: rgb(250, 250, 250);
     transition: all 1s;
     width: 270px;
+    position: relative;
+   
 }
 
 .slider__card:hover {
@@ -220,6 +243,7 @@ a {
 .card__katrine {
     margin-right: 90px;
     margin-left: 53px;
+
 }
 
 .card__jennifer {
@@ -228,6 +252,7 @@ a {
 
 .card__woody {
     margin-right: 53px;
+
 }
 
 .card__img-wrap {
@@ -390,21 +415,53 @@ footer {
 }
 
 .foter__desc {
-    display: flex;
     justify-content: space-between;
     column-gap: 160px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1170px) {
+    .slider__nav {
+        bottom: -404px;
+    }
+}
+
+@media (max-width: 1181px) {
     .card__woody {
         visibility: hidden;
         display: none;
+    }
+    .slider__nav{
+        bottom: -848px;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        column-gap: 80px;
+        align-items: center;
+    }
+    .btn-right {
+        left: 311px;
+    }
+    .btn-left{
+        left: -400px;
     }
 
 }
 
 @media (max-width:900px) {
+    .frends__slider{
+        display: grid;
 
+    }
+    .slider__nav {
+       position: static;
+       display: flex;
+       order: 1;
+    }
+
+
+    .btn-arrow-wrap{
+        position: static;
+    }
     .nav__list {
         align-items: end;
     }
@@ -480,6 +537,16 @@ footer {
 
 }
 
+@media (min-width: 700px) {
+    .foter__desc {
+        display: flex;
+    }
+
+    .footer__container {
+        display: block;
+    }
+}
+
 @media (max-width:682px) {
     .footer__container {
         display: block;
@@ -490,7 +557,9 @@ footer {
     .footer__contacts {
         margin-bottom: 40px;
     }
-
+    .footer__desc{
+        display: block;
+    }
     .footer {
         display: block;
     }
@@ -506,15 +575,6 @@ footer {
     }
 }
 
-@media (max-width: 890px) {
-    .foter__desc {
-        display: flex;
-    }
-
-    .footer__container {
-        display: block;
-    }
-}
 
 @media (max-width: 518px) {
     .hero__desc {
@@ -620,6 +680,7 @@ footer {
     font-size: 35px;
     font-weight: 400;
     margin-bottom: 60px;
+    margin-top: 80px;
 }
 
 .slider__list {
@@ -666,4 +727,8 @@ footer {
 
 .no-active-arrow:hover {
     background-color: #fff;
+}
+
+.pets__btn{
+    position: static;
 }
