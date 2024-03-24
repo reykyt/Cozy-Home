@@ -533,7 +533,12 @@ footer {
         visibility: hidden;
         display: none;
     }
+    .slider__pets{
+        display: flex;
+    flex-flow: column;
+    align-items: center;
 
+    }
 
 }
 
