@@ -12,25 +12,6 @@ body {
 
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-}
-
-body {
-    font-family: Arial, Verdana, sans-serif;
-}
-
 img {
     max-width: 100%;
 }
@@ -56,106 +37,6 @@ a {
 
 .wrapper {
     min-height: 100%;
-    z-index: 0;
-}
-
-@media (max-width: 778px) {
-
-header {
-	display: block;
-	justify-content: flex-end;
-}
-
-.header__links {
-    display: block;
-    text-align: center;
-
-}
-
-.item__link{
-   color: white;
-   font-size: 32px;
-   font-weight: 400;
-   line-height: 160%;
-   text-align: left; 
-}
-
-.menu-btn {
-	width: 30px;
-	height: 30px;
-	position: relative;
-	z-index:3;
-	overflow: hidden;
-    position: fixed;
-    left: 90%;
-}
-
-
-
-.menu-btn span {
-	width: 30px;
-	height: 2px;
-	position: absolute;
-	top: 50%;
-    z-index:2;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgb(241, 205, 179);
-    border-width:2px ;
-	transition: all 0.5s;
-}
-
-.menu-btn span:nth-of-type(2) {
-	top: calc(50% - 5px);
-}
-.menu-btn span:nth-of-type(3) {
-	top: calc(50% + 5px);
-}
-.header__links {
-    display: block;
-    margin-bottom: 43px;
-}
-
-.menu {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-    display: block;
-    text-align: center;
-	padding: 39px 30px;
-    padding-top: 258px;
-	background-color: rgb(41, 41, 41);
-	transform: translateX(100%);
-	transition: transform 0.5s; 
-    align-items: flex-end;
-}
-
-.menu.active {
-	transform: translateX(0);
-    z-index: 1;
-}
-.menu-btn.active {
-    z-index:2;
-}
-.menu li {
-	list-style-type: none;
-}
-
-.menu-btn.active span:first-of-type {
-	transform: translateX(100%);
-}
-
-.menu-btn.active span:nth-of-type(2) {
-	top: 50%;
-	transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.menu-btn.active span:nth-of-type(3) {
-	top: 50%;
-	transform: translate(-50%, -50%) rotate(-45deg);
-}
 }
 
 /* начало индекса */
@@ -538,9 +419,6 @@ footer {
     column-gap: 160px;
 }
 
-/* конец  индекса */
-/* начало медиа запросов  */
-
 @media (max-width: 1170px) {
     .slider__nav {
         bottom: -404px;
@@ -761,5 +639,101 @@ footer {
         column-gap: 10px;
     }
 }
-/* конец медиа запросов  */
 
+/* конец  индекса */
+/* начало сайта со всеми питомцами */
+
+.logo__titles {
+    font-family: Georgia;
+    font-size: 32px;
+    color: rgb(84, 84, 84);
+    margin-bottom: 10px;
+}
+
+.logo__subtitles {
+    color: rgb(41, 41, 41);
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.header__links {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+
+.item__link {
+    color: rgb(84, 84, 84);
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.links__item:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(241, 205, 179);
+}
+
+
+.our-pets {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.our-pets__title {
+    color: rgb(84, 84, 84);
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+.slider__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.slider__card {
+    margin-bottom: 30px;
+}
+
+.pets__slider {
+    margin-bottom: 100px;
+}
+
+.pets-slider__navigation {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 45px;
+}
+
+.btn-1-wrap {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    border: 2px solid rgb(241, 205, 179);
+}
+
+.btn-1-wrap:hover {
+    background-color: rgb(241, 205, 179);
+}
+
+.no-active-arrow {
+    border: 2px solid rgb(205, 205, 205);
+}
+
+.no-active-arrow:hover {
+    background-color: #fff;
+}
+
+.pets__btn{
+    position: static;
+}
