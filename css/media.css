@@ -226,9 +226,7 @@ header {
 	justify-content: space-between;
 }
 
-.pets-logo__titles{
 
-}
 .header__links {
     display: block;
     font-size: 32px;
@@ -244,7 +242,6 @@ header {
 	position: relative;
 	z-index:3;
 	overflow: hidden;
-    position: fixed;
 
 }
 
@@ -300,7 +297,7 @@ header {
 }
 
 .menu-btn.active span:first-of-type {
-	transform: translateX(100%);
+	transform: translateX(100vw);
 }
 
 .menu-btn.active span:nth-of-type(2) {
