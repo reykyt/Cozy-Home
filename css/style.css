@@ -194,20 +194,21 @@ a {
     border-radius: 100px;
     border: 2px solid rgb(241, 205, 179);
     position: absolute;
+    transform: translateY(-50%);
 }
 
-.slider__nav{
+.slider__nav {
     position: absolute;
     bottom: -862px;
 }
 
-.btn-right{ 
+.btn-right {
     left: 547px;
 }
 
 /* bottom: -976px; */
 
-.btn-left{
+.btn-left {
     left: -582px;
 }
 
@@ -223,7 +224,7 @@ a {
     margin-bottom: 60px;
 }
 
-.slider__pets{
+.slider__pets {
     display: flex;
 }
 
@@ -233,7 +234,7 @@ a {
     transition: all 1s;
     width: 270px;
     position: relative;
-   
+
 }
 
 .slider__card:hover {
@@ -281,21 +282,21 @@ a {
 
 
 .modal {
-	visibility: hidden;
-	opacity: 0;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	background: rgb(250, 250, 250);
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgb(250, 250, 250);
     color: rgb(0, 0, 0);
     font-family: Georgia;
-	z-index: 5;
-	-webkit-transition: opacity 0.25s;
-	-o-transition: opacity 0.25s;
-	transition: opacity 0.25s;
+    z-index: 5;
+    -webkit-transition: opacity 0.25s;
+    -o-transition: opacity 0.25s;
+    transition: opacity 0.25s;
     display: flex;
     justify-content: space-between;
     max-width: 900px;
@@ -305,58 +306,67 @@ a {
     box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
     font-weight: 400;
 }
+
 .modal.show {
-	visibility: visible;
-	opacity: 1;
-	-webkit-transition: opacity 0.25s;
-	-o-transition: opacity 0.25s;
-	transition: opacity 0.25s;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 0.25s;
+    -o-transition: opacity 0.25s;
+    transition: opacity 0.25s;
 }
-.modal_container{
+
+.modal_container {
     margin-left: 29px;
 }
+
 .modal_title {
     font-size: 35px;
     line-height: 130%;
     margin-top: 50px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-.modal__subtitle{
+
+.modal__subtitle {
     font-size: 20px;
     line-height: 115%;
     margin-bottom: 40px;
 }
-.modal__text{
+
+.modal__text {
     margin-bottom: 40px;
     font-size: 15px;
     line-height: 110%;
     letter-spacing: 6%;
 }
-.modal__list{
+
+.modal__list {
     list-style: disc;
 }
-.modal__item{
-   margin-bottom:11px;
-    
+
+.modal__item {
+    margin-bottom: 11px;
+
 }
+
 .modal_bg {
-	visibility: hidden;
-	opacity: 0;
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: rgba(0,0,0,0.35);
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 .modal_bg.show {
-	visibility: visible;
-	opacity: 1;
-	-webkit-transition: opacity 0.25s;
-	-o-transition: opacity 0.25s;
-	transition: opacity 0.25s;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 0.25s;
+    -o-transition: opacity 0.25s;
+    transition: opacity 0.25s;
 }
+
 .card__link:hover {
     background-color: rgb(241, 205, 179);
 }
@@ -509,7 +519,8 @@ footer {
         visibility: hidden;
         display: none;
     }
-    .slider__nav{
+
+    .slider__nav {
         bottom: -848px;
         display: flex;
         flex-flow: row;
@@ -517,30 +528,34 @@ footer {
         column-gap: 80px;
         align-items: center;
     }
+
     .btn-right {
         left: 311px;
     }
-    .btn-left{
+
+    .btn-left {
         left: -400px;
     }
 
 }
 
 @media (max-width:900px) {
-    .frends__slider{
+    .frends__slider {
         display: grid;
 
     }
+
     .slider__nav {
-       position: static;
-       display: flex;
-       order: 1;
+        position: static;
+        display: flex;
+        order: 1;
     }
 
 
-    .btn-arrow-wrap{
+    .btn-arrow-wrap {
         position: static;
     }
+
     .nav__list {
         align-items: end;
     }
@@ -612,10 +627,11 @@ footer {
         visibility: hidden;
         display: none;
     }
-    .slider__pets{
+
+    .slider__pets {
         display: flex;
-    flex-flow: column;
-    align-items: center;
+        flex-flow: column;
+        align-items: center;
 
     }
 
@@ -641,9 +657,11 @@ footer {
     .footer__contacts {
         margin-bottom: 40px;
     }
-    .footer__desc{
+
+    .footer__desc {
         display: block;
     }
+
     .footer {
         display: block;
     }
@@ -813,6 +831,6 @@ footer {
     background-color: #fff;
 }
 
-.pets__btn{
+.pets__btn {
     position: static;
 }
