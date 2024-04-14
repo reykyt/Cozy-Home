@@ -135,6 +135,13 @@
 
 }
 
+@media (max-width:768px) {
+    .container {
+        max-width: 768px;
+
+    }
+}
+
 @media (min-width: 700px) {
     .foter__desc {
         display: flex;
